@@ -1,0 +1,23 @@
+{
+  "name": "typescript-template",
+  "version": "1.0.0",
+  "description": "Typescript template",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node ./build/index.js"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": {
+    "name": "evgenij sobolew",
+    "email": "",
+    "url": "https://github.com/Kowkodivka"
+  },
+  "license": "GPL-3.0-only",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}

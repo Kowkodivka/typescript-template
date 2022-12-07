@@ -1,0 +1,18 @@
+# Nodejs
+node_modules/
+.node_modules/
+build/*
+
+# VSCode
+**/.vs
+**/.vscode/*
+!**/.vscode/tasks.json
+!**/.vscode/settings.template.json
+!**/.vscode/launch.template.json
+!**/.vscode/extensions.json
+
+# Intellij idea based ide
+.idea
+
+# MacOS
+**/.DS_Store
